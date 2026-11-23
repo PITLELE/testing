@@ -1,0 +1,117 @@
+
+
+.employee {
+  min-height: 100vh;
+  padding: 40px;
+  background-color: #f1f5f9;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.employee h1 {
+  color: #b71c1c;
+  font-size: clamp(24px, 4vw, 32px);
+  margin-bottom: 10px;
+}
+
+.employee > p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.leave-application-card,
+.submitted-application {
+  width: 100%;
+  max-width: 650px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 25px;
+}
+
+.leave-application-card h2,
+.submitted-application h2 {
+  color: #b71c1c;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.leave-application-card label {
+  display: block;
+  color: #b71c1c;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.leave-application-card input,
+.leave-application-card select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.leave-application-card input:focus,
+.leave-application-card select:focus {
+  outline: none;
+  border-color: #b71c1c;
+  box-shadow: 0 0 4px rgba(183, 28, 28, 0.25);
+}
+
+.leave-application-card button {
+  width: 100%;
+  padding: 13px;
+  background-color: #b71c1c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.leave-application-card button:hover {
+  background-color: #8b0000;
+}
+
+.application-message {
+  margin-top: 20px;
+  color: #b71c1c;
+  font-weight: bold;
+}
+
+.submitted-application p {
+  margin-bottom: 12px;
+  color: #444;
+  font-size: 16px;
+}
+
+.submitted-application strong {
+  color: #b71c1c;
+}
+
+@media (max-width: 600px) {
+  .employee {
+    padding: 20px;
+  }
+
+  .leave-application-card,
+  .submitted-application {
+    padding: 20px;
+  }
+
+  .leave-application-card h2,
+  .submitted-application h2 {
+    font-size: 20px;
+  }
+}
+/* Dropdown hover and focus */
+/* Dropdown hover */
+
+

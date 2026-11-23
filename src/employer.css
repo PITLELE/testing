@@ -1,0 +1,140 @@
+
+/* Main page */
+.employer-container {
+  min-height: 100vh;
+  background-color: #f1f5f9;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+/* Page heading and logout button */
+.employer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.employer-header h1 {
+  color: #b71c1c;
+  margin-bottom: 5px;
+}
+
+.employer-header p {
+  color: #666;
+  margin: 0;
+}
+
+/* Logout button */
+.employer-header button {
+  background-color: #b71c1c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.employer-header button:hover {
+  background-color: #8b0000;
+}
+
+/* Application card */
+.employer-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.employer-card h2 {
+  color: #b71c1c;
+  margin-bottom: 20px;
+}
+
+/* Table */
+.employer-card table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 650px;
+}
+
+.employer-card th {
+  background-color: #b71c1c;
+  color: white;
+  padding: 15px;
+  text-align: left;
+}
+
+.employer-card td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  color: #444;
+}
+
+.employer-card tr:hover {
+  background-color: #fff8e1;
+}
+
+/* Approve button */
+.employer-card td button:first-child {
+  background-color: #1b5e20;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Reject button */
+.employer-card td button:last-child {
+  background-color: #b71c1c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Button hover effects */
+.employer-card td button:first-child:hover {
+  background-color: #144a18;
+}
+
+.employer-card td button:last-child:hover {
+  background-color: #8b0000;
+}
+
+/* Empty applications message */
+.employer-card > p {
+  color: #666;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Smaller screens */
+@media screen and (max-width: 768px) {
+
+  .employer-container {
+    padding: 15px;
+  }
+
+  .employer-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .employer-card {
+    padding: 15px;
+    overflow-x: auto;
+  }
+
+  .employer-card table {
+    min-width: 650px;
+  }
+}
