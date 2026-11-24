@@ -31,7 +31,7 @@ function Login() {
   return (
     <div className="app-container">
       <div className="login-card">
-        <h1>Digital E-Leave</h1>
+        <h1>{import.meta.env.VITE_APP_NAME}</h1>
         <p>Employee Leave Management System</p>
 
         <form onSubmit={handleLogin}>
