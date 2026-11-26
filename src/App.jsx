@@ -35,17 +35,20 @@ function Login() {
         <p> Leave Management System</p>
 
         <form onSubmit={handleLogin}>
-          <label>Username</label>
+          <label>Email</label>
           <input
-            type="text"
-            placeholder="Enter your username"
+            type="email"
+            placeholder="Enter your email"
             required
           />
 
           <label>Password</label>
           <input
+
             type="password"
-            placeholder="Enter your password"
+            placeholder="Enter your password
+             "
+
             required
           />
 
