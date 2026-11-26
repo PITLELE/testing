@@ -32,20 +32,23 @@ function Login() {
     <div className="app-container">
       <div className="login-card">
         <h1>{import.meta.env.VITE_APP_NAME}</h1>
-        <p>Employee Leave Management System</p>
+        <p> Leave Management System</p>
 
         <form onSubmit={handleLogin}>
-          <label>Username</label>
+          <label>Email</label>
           <input
-            type="text"
-            placeholder="Enter your username"
+            type="email"
+            placeholder="Enter your email"
             required
           />
 
           <label>Password</label>
           <input
+
             type="password"
-            placeholder="Enter your password"
+            placeholder="Enter your password
+             "
+
             required
           />
 
