@@ -32,7 +32,7 @@ function Login() {
     <div className="app-container">
       <div className="login-card">
         <h1>{import.meta.env.VITE_APP_NAME}</h1>
-        <p>Employee Leave Management System</p>
+        <p> Leave Management System</p>
 
         <form onSubmit={handleLogin}>
           <label>Username</label>
